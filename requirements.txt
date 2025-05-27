@@ -1,0 +1,5 @@
+praw
+tweepy
+openai  # For summarization (or use another LLM)
+requests
+python-dotenv

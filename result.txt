@@ -1,0 +1,162 @@
+=== Run at 2025-05-27 14:52:52 ===
+Reddit Query: Wix AND (billing OR subscription OR domain OR payment OR refund) AND (problem OR issue OR can't OR unable OR error OR broken OR stuck OR not working OR declined OR charged twice OR no refund OR complaint)
+Number of posts returned by Reddit API: 20
+Titles of posts returned by Reddit API:
+- Wix is getting outrageously expensive
+- Removing Usercentrics logo from website
+- Is this type of redirect possible?
+- Looking to run away from WIX? Maybe it's time for that talk...
+- Wix has been awful...don't know what to do.
+- What no one tells you about moving from Wix Editor to Studio…
+- Auto renew pain
+- Is it possible to…
+- Wix Express Checkout
+- I can't find my Wix site on Google
+- Got Charged, Never Used This Website
+- Merging 2 separate sites under a single domain name
+- Phishing scam or actual security risk?
+- Creating a raffle with paid entries seeming difficult on Wix
+- Wix payment verification! How can I get my money
+- What is the Value Added to Transaction here??? What value did they add by me buying a domain????
+- Question about domains
+- Help!
+- Accordion component in current WIX editor?
+- WIX homepage jumps to Google Search Page in 2 seconds
+Number of complaints found: 11
+
+OpenAI Prompt Template (without post text):
+Is this Reddit post a user complaint about Wix? If yes, what is the complaint about? Summarize the complaint in 1-2 sentences. If not, reply 'Not a complaint.'
+
+Post:
+[POST_TEXT]
+
+Complaints (with category and summary):
+- Link: https://www.reddit.com/r/WIX/comments/1kvks4d/wix_is_getting_outrageously_expensive/
+  Title: Wix is getting outrageously expensive
+  Date: 2025-05-26 03:43:30
+  Category: Billing
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is about Wix increasing prices for email campaigns and taking features out of subscriptions, making the platform more expensive for users.
+- Link: https://www.reddit.com/r/WIX/comments/1kvjngh/removing_usercentrics_logo_from_website/
+  Title: Removing Usercentrics logo from website
+  Date: 2025-05-26 02:39:38
+  Category: Subscriptions
+  Complaint Summary: Yes, this is a user complaint about Wix. The user is frustrated because when using the Usercentrics app for the cookie banner on their website, a logo from Usercentrics is appearing that they cannot remove, despite having a Premium subscription. They have not received a response from Usercentrics for Wix and are encountering technical errors when trying to purchase different cookie banner apps.
+- Link: https://www.reddit.com/r/WIX/comments/1ktcpl2/looking_to_run_away_from_wix_maybe_its_time_for/
+  Title: Looking to run away from WIX? Maybe it's time for that talk...
+  Date: 2025-05-23 06:27:38
+  Category: Domains
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is about various issues experienced by users of the Wix Classic editor, such as responsive issues, slow site speed, and difficulty ranking.
+- Link: https://www.reddit.com/r/WIX/comments/1kstwki/wix_has_been_awfuldont_know_what_to_do/
+  Title: Wix has been awful...don't know what to do.
+  Date: 2025-05-22 15:41:17
+  Category: Billing
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is that Wix failed to notify the user about an incoming order, resulting in a delay in delivery and loss of money, and Wix customer service was unhelpful in resolving the issue.
+- Link: https://www.reddit.com/r/WIX/comments/1kriro5/auto_renew_pain/
+  Title: Auto renew pain
+  Date: 2025-05-20 22:57:08
+  Category: Subscriptions
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is that the user's subscription auto-renewed without their knowledge, leading to a charge of £360 that they were unable to get refunded even after immediately cancelling the plan and contacting Wix. The user is frustrated with Wix's response and lack of empathy, especially during a financial hardship.
+- Link: https://www.reddit.com/r/WixHelp/comments/1kqsljc/wix_express_checkout/
+  Title: Wix Express Checkout
+  Date: 2025-05-20 01:13:39
+  Category: Subscriptions
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is about customers getting stuck in a loop when trying to check out using PayPal Express or Venmo on a Wix website, leading to worries about the site's validity.
+- Link: https://www.reddit.com/r/WIX/comments/1kmlkv2/got_charged_never_used_this_website/
+  Title: Got Charged, Never Used This Website
+  Date: 2025-05-14 17:46:42
+  Category: Billing
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is that the user was charged by Wix despite never having used the website and is unable to reach customer service for a refund or explanation.
+- Link: https://www.reddit.com/r/WIX/comments/1kiebnb/wix_payment_verification_how_can_i_get_my_money/
+  Title: Wix payment verification! How can I get my money
+  Date: 2025-05-09 09:29:38
+  Category: Billing
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is about the user's payment of over $7k being put on hold for account verification, causing disruptions to their business operations.
+- Link: https://www.reddit.com/r/WIX/comments/1khzfbh/question_about_domains/
+  Title: Question about domains
+  Date: 2025-05-08 19:50:40
+  Category: Domains
+  Complaint Summary: This is a user complaint about Wix. The complaint is that Wix is requiring the user to upgrade to a premium plan in order to connect their website to the purchased domain.
+- Link: https://www.reddit.com/r/WIX/comments/1kgv9ui/accordion_component_in_current_wix_editor/
+  Title: Accordion component in current WIX editor?
+  Date: 2025-05-07 11:44:54
+  Category: Subscriptions
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is that the user is unable to find the accordion component in the current Wix editor layout, despite it being mentioned in the documentation.
+- Link: https://www.reddit.com/r/WIX/comments/1kfhk6x/wix_homepage_jumps_to_google_search_page_in_2/
+  Title: WIX homepage jumps to Google Search Page in 2 seconds
+  Date: 2025-05-05 17:31:21
+  Category: Domains
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is that the homepage of the user's Wix website jumps to the Google Search page immediately after loading, causing issues for customers and the user has been unable to resolve the issue despite contacting Wix and AWS.
+
+Complaints found: 11
+=== End of Run ===
+
+=== Run at 2025-05-27 14:50:06 ===
+Reddit Query: Wix AND (billing OR subscription OR domain OR payment OR refund) AND (problem OR issue OR can't OR unable OR error OR broken OR stuck OR not working OR declined OR charged twice OR no refund OR complaint)
+Number of complaints found: 11
+
+OpenAI Prompt Template (without post text):
+Is this Reddit post a user complaint about Wix? If yes, what is the complaint about? Summarize the complaint in 1-2 sentences. If not, reply 'Not a complaint.'
+
+Post:
+[POST_TEXT]
+
+Complaints (with category and summary):
+- Link: https://www.reddit.com/r/WIX/comments/1kvks4d/wix_is_getting_outrageously_expensive/
+  Title: Wix is getting outrageously expensive
+  Date: 2025-05-26 03:43:30
+  Category: Subscriptions
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is about the platform becoming more expensive, with features being removed from the subscription and then sold back at a higher price, specifically citing the increased cost for email campaigns.
+- Link: https://www.reddit.com/r/WIX/comments/1kvjngh/removing_usercentrics_logo_from_website/
+  Title: Removing Usercentrics logo from website
+  Date: 2025-05-26 02:39:38
+  Category: Subscriptions
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is about the inability to remove the Usercentrics logo from their website despite having a Premium subscription and attempts to contact Usercentrics for Wix support.
+- Link: https://www.reddit.com/r/WIX/comments/1ktcpl2/looking_to_run_away_from_wix_maybe_its_time_for/
+  Title: Looking to run away from WIX? Maybe it's time for that talk...
+  Date: 2025-05-23 06:27:38
+  Category: Domains
+  Complaint Summary: This is not a complaint.
+- Link: https://www.reddit.com/r/WIX/comments/1kstwki/wix_has_been_awfuldont_know_what_to_do/
+  Title: Wix has been awful...don't know what to do.
+  Date: 2025-05-22 15:41:17
+  Category: Billing
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is about Wix not notifying the users of new orders placed on their website for a smoothie delivery business, causing them to miss an order and lose money. Wix customer service was unhelpful in resolving the issue and refused to refund the users for the money they lost.
+- Link: https://www.reddit.com/r/WIX/comments/1kriro5/auto_renew_pain/
+  Title: Auto renew pain
+  Date: 2025-05-20 22:57:08
+  Category: Subscriptions
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is that the user's payment of £360 for auto-renewal went through without notice, they immediately canceled the plan and requested a refund due to financial hardship but Wix denied the refund based on contractual terms regarding auto-renew.
+- Link: https://www.reddit.com/r/WixHelp/comments/1kqsljc/wix_express_checkout/
+  Title: Wix Express Checkout
+  Date: 2025-05-20 01:13:39
+  Category: Billing
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is about issues with the Wix Express Checkout feature when using PayPal/Venmo payment options, causing customers to be stuck in a loop and unable to complete their purchase.
+- Link: https://www.reddit.com/r/WIX/comments/1kmlkv2/got_charged_never_used_this_website/
+  Title: Got Charged, Never Used This Website
+  Date: 2025-05-14 17:46:42
+  Category: Billing
+  Complaint Summary: Yes, this is a user complaint about Wix. The complaint is that the user was charged by Wix despite never using their website, and they are having trouble contacting customer service to resolve the issue.
+- Link: https://www.reddit.com/r/WIX/comments/1kiebnb/wix_payment_verification_how_can_i_get_my_money/
+  Title: Wix payment verification! How can I get my money
+  Date: 2025-05-09 09:29:38
+  Category: Billing
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is about a payment from a client being held for account verification, causing delays in receiving the money and disrupting business operations. The user is frustrated with the lack of communication and transparency in the process.
+- Link: https://www.reddit.com/r/WIX/comments/1khzfbh/question_about_domains/
+  Title: Question about domains
+  Date: 2025-05-08 19:50:40
+  Category: Domains
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The user is frustrated that they cannot connect their Wix website to the domain they bought without purchasing a premium subscription, which costs $17 a month.
+- Link: https://www.reddit.com/r/WIX/comments/1kgv9ui/accordion_component_in_current_wix_editor/
+  Title: Accordion component in current WIX editor?
+  Date: 2025-05-07 11:44:54
+  Category: Subscriptions
+  Complaint Summary: Yes, this post is a user complaint about Wix. The complaint is that the user is unable to find the accordion component in the current Wix editor layout, despite it being mentioned in Wix's own documentation.
+- Link: https://www.reddit.com/r/WIX/comments/1kfhk6x/wix_homepage_jumps_to_google_search_page_in_2/
+  Title: WIX homepage jumps to Google Search Page in 2 seconds
+  Date: 2025-05-05 17:31:21
+  Category: Domains
+  Complaint Summary: Yes, this Reddit post is a user complaint about Wix. The complaint is that the user's Wix homepage keeps jumping to the Google Search page immediately after loading, causing frustration for both the user and customers. The user has tried contacting Wix for a solution but has not received a clear resolution yet.
+
+Complaints found: 11
+=== End of Run ===
+
