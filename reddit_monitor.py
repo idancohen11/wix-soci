@@ -6,6 +6,7 @@ import openai
 import os
 from datetime import datetime
 import json
+from concurrent.futures import ThreadPoolExecutor
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -209,17 +210,23 @@ def write_complaints_to_file(complaints, all_mentions, run_time):
 def get_categorized_complaints(limit=20):
     mentions = search_reddit(KEYWORDS, limit=limit)
     complaints = []
-    for mention in mentions:
+
+    def classify(mention):
         result = is_complaint(mention['title'] + '\n' + mention['text'])
         if result.get("is_complaint"):
-            complaints.append({
+            return {
                 "link": mention['link'],
                 "title": mention['title'],
                 "date": mention['created_date'],
                 "product_area": result.get("product_area"),
                 "summary": result.get("summary"),
                 "urgency": result.get("urgency")
-            })
+            }
+        return None
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(classify, mentions))
+    complaints = [r for r in results if r]
     return complaints, mentions
 
 if __name__ == "__main__":
