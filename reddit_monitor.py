@@ -227,9 +227,9 @@ def get_categorized_complaints(limit=20):
     with ThreadPoolExecutor(max_workers=10) as executor:
         results = list(executor.map(classify, mentions))
     complaints = [r for r in results if r]
-    return complaints, mentions
+    return complaints
 
 if __name__ == "__main__":
     run_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    complaints, mentions = get_categorized_complaints(limit=50)
-    write_complaints_to_file(complaints, mentions, run_time) 
+    complaints = get_categorized_complaints(limit=50)
+    write_complaints_to_file(complaints, search_reddit(KEYWORDS, limit=50), run_time) 
